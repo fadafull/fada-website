@@ -1,0 +1,16 @@
+# OS generated files
+.*
+*.db
+supervisord.*
+
+/node_modules
+/dist
+/build
+/tmp
+*.sublime-project
+*.sublime-workspace
+*.log
+
+# Trailing dotted files
+!.gitignore
+!.editorconfig
