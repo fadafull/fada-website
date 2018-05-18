@@ -3,12 +3,17 @@
    ========================================================================== */
 
 html {
+  height: 100%;
   color: #252D39;
   background-color: #D9D1C6;
   text-align: center;
   font-size: 1.1em;
   line-height: 1.4;
   font-family: 'nexa', Verdana, Geneva, sans-serif;
+}
+
+body {
+  height: 100%;
 }
 
 h2 {
@@ -49,8 +54,14 @@ a:hover {
 * @night: #252D39
 */
 
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 /* Cover area */
 .Cover {
+  flex: none;
   padding: 2em;
   color: #D9D1C6;
   background-color: #D65536;
@@ -74,6 +85,7 @@ a:hover {
 
 /* Content area */
 .Content {
+  flex: 1 0 auto;
   padding: 2em;
   color: #D65536;
   background-color: #252D39;
@@ -96,6 +108,7 @@ a:hover {
 /* Footer area */
 
 .Footer {
+  flex: none;
   color: #D65536;
   background-color: #252D39;
   font-size: .8rem;
