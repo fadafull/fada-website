@@ -3,12 +3,12 @@
    ========================================================================== */
 
 html {
-    color: #252D39;
-    background-color: #D9D1C6;
-    text-align: center;
-    font-size: 1.1em;
-    line-height: 1.4;
-    font-family: 'nexa', Verdana, Geneva, sans-serif;
+  color: #252D39;
+  background-color: #D9D1C6;
+  text-align: center;
+  font-size: 1.1em;
+  line-height: 1.4;
+  font-family: 'nexa', Verdana, Geneva, sans-serif;
 }
 
 h2 {
@@ -28,26 +28,26 @@ a:hover {
  */
 
 ::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
+  background: #b3d4fc;
+  text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
-    text-shadow: none;
+  background: #b3d4fc;
+  text-shadow: none;
 }
 
 /* ==========================================================================
    Custom styles
    ========================================================================== */
 
-   /*
-    * Color palette
-    * @coral: #D65536
-    * @lake: #2BA8C2
-    * @sand: #D9D1C6
-    * @night: #252D39
-    */
+/*
+* Color palette
+* @coral: #D65536
+* @lake: #2BA8C2
+* @sand: #D9D1C6
+* @night: #252D39
+*/
 
 /* Cover area */
 .Cover {
@@ -106,7 +106,6 @@ a:hover {
   padding: 0 .5rem;
 }
 
-
 @media only screen and (min-width: 600px) {
   .Cover,
   .Content {
@@ -118,40 +117,40 @@ a:hover {
    Helper classes
    ========================================================================== */
 
- .Util-howl-spacing > * ~ * {
+.Util-howl-spacing > * ~ * {
   padding-top: 2rem; /* @TODO: Replace with flex */
- }
+}
 
- @media only screen and (min-width: 600px) {
-   .Util-howl-spacing > * ~ * {
-     padding-top: 4rem; /* @TODO: Replace with flex */
-   }
- }
+@media only screen and (min-width: 600px) {
+  .Util-howl-spacing > * ~ * {
+    padding-top: 4rem; /* @TODO: Replace with flex */
+  }
+}
 
- .Util-visuallyhidden {
-     border: 0;
-     clip: rect(0 0 0 0);
-     -webkit-clip-path: inset(50%);
-     clip-path: inset(50%);
-     height: 1px;
-     margin: -1px;
-     overflow: hidden;
-     padding: 0;
-     position: absolute;
-     width: 1px;
-     white-space: nowrap; /* 1 */
- }
+.Util-visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap; /* 1 */
+}
 
 .Util-clearfix:before,
 .Util-clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+  content: " "; /* 1 */
+  display: table; /* 2 */
 }
 
 .Util-clearfix:after {
-    clear: both;
+  clear: both;
 }
 
 .Util-clearfix:after {
-    clear: both;
+  clear: both;
 }
